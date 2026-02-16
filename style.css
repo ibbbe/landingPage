@@ -1,0 +1,159 @@
+body {
+    font-family: "Roboto";
+}
+
+.hero,
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.hero {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    padding-top: 10px;
+}
+
+.headerLinks {
+    display: flex;
+    gap: 50px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.content {
+    display: flex;
+
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+.secondary-text {
+    padding-top: 10px;
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.secondary-text {
+    margin: 0;
+    margin-right: 40px;
+}
+
+.image {
+    height: 220px;
+    width: 1050px;
+    background-color: gray;
+}
+
+.header-button {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 115px;
+    height: 30px;
+    color: #F9FAF8;
+    border: none;
+}
+
+.information {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+
+.card img {
+    height: 130px;
+    width: 130px;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+}
+
+.card p {
+    width: 130px;
+    text-align: center;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote {
+    padding: 100px 560px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    columns: #1F2937;
+    font-weight: 300;
+}
+
+.author {
+    text-align: end;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 900;
+    padding-right: 40px;
+}
+
+.action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 75px 200px;
+    padding: 40px 50px;
+    border-radius: 10px;
+}
+
+.call {
+    margin: 0;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.call-text {
+    margin: 0;
+    font-size: 18px;
+}
+
+.action-button {
+    border: 2px #F9FAF8 solid;
+    align-self: center;
+}
+
+.footer {
+    padding: 25px 0px;
+    text-align: center;
+}
